@@ -1,0 +1,34 @@
+.body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0.886);
+  transition: 0.5s;
+  height: 2000px;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+.dark-mode{
+  background-color: rgba(0, 0, 0, 0.811);
+  color: rgb(245, 222, 179);
+}
+
+.toggle-button {
+  font-family: Arial, sans-serif;
+  font-weight: 550;
+  border: solid, 2px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(213, 176, 106);
+  cursor: pointer;
+  padding: 1px;
+  transition: transform .2s; /* Animation */
+  width: 80px;
+  height: 30px;
+  margin-left: 140px;
+  margin-top: 0;
+
+}
+.toggle-button:hover {
+  transform: scale(1.1);
+}
+
